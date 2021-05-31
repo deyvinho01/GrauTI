@@ -1,0 +1,79 @@
+*{margin: 0%; padding: 0%; box-sizing: border-box;}
+
+#nav{ 
+    padding: 9px 0;
+    max-width: 1100px;
+    margin: 0% auto;
+    padding: 0 2%;
+
+}
+header{
+    position: fixed;
+    left: 0%; top: 0%; width: 100%; padding: 9px 0;
+    text-align: center;
+    background: #069;
+}
+header li{
+    display: inline-block;
+    margin: 0 10px;
+}
+header a{
+    text-decoration: none;
+    color: rgb(249, 249, 250);
+
+}
+section  #conteudo1,#conteudo2,#conteudo3, #contato{
+margin-top: 120px;
+padding-top: 120px;
+}
+
+body{
+    text-align: center;
+    color: ghostwhite;
+    background-attachment: fixed;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#conteudo1{
+    text-shadow: #069;
+    text-align: left;
+    font-size: 35px;
+    margin-top: 53px;
+}
+.foto{
+    padding-left: 70%;
+    margin-top: -12%;
+    border: radius 90%;
+
+   
+}
+
+.imagem-conteudo{
+    background-color: #069;
+}
+
+#conteudo3{
+    font-size: 35px;
+    display: -ms-inline-flexbox;
+
+}
+
+#Contato, #Formulario{
+    background-color: rgb(227, 238, 238);
+    font-size: 16px;
+    color:black;
+    
+}
+html{
+    scroll-behavior: smooth;
+
+}
+
+:target{
+    scroll-margin-top: .50px;
+}
+
+#conteudo2{
+    font-size: 35px;
+
+}
